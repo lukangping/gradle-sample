@@ -24,3 +24,7 @@ foo = "foo"
 task displayFoo << {
 	println foo
 }
+
+task displayFile << {
+	println project.file(".")
+}
