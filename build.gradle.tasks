@@ -1,0 +1,13 @@
+defaultTasks 'clean', 'run'
+
+task clean << {
+	println("default clean.");
+}
+
+task run << {
+	println("default run.");
+}
+
+task todo << {
+	println("todo.");
+}
