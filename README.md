@@ -1,12 +1,12 @@
-+解析当前bundle的依赖bundle；
+1.解析当前bundle的依赖bundle；
 
-+对每个bundle进行打包；
+2.对每个bundle进行打包；
 
-  |_根据menifest生成build.gradle文件 
+2.1根据menifest生成build.gradle文件 
 
-  |_执行gradle compile 
+2.2执行gradle compile 
 
-  |_move jar to eclipse/dropin 
+2.3move jar to eclipse/dropin 
 
-+生成当前bundle的launch文件； 
+3.生成当前bundle的launch文件； 
 
