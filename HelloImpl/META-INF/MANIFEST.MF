@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: HelloImpl
+Bundle-SymbolicName: HelloImpl
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: org.helloimpl.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Import-Package: org.helloapi,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy

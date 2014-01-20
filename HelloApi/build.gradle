@@ -1,0 +1,15 @@
+apply plugin: 'java'
+apply plugin: 'osgi'
+
+dependencies {
+	compile files('d:/devtools/eclipse/plugins/org.eclipse.osgi.source_3.9.1.v20130814-1242.jar')
+}
+
+jar {
+    manifest {
+        name = 'HelloApi'
+        instruction 'Bundle-Activator', 'org.helloapi.Activator'
+        instruction 'Import-Package', 'org.osgi.framework;version="1.3.0"'
+        instruction 'Export-Package', 'org.helloapi'
+    }
+}
